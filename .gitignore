@@ -1,0 +1,23 @@
+#secrets
+.env
+.env.*
+!.env.test
+**/secrets
+
+#pycache
+__pycache__
+**.pyc
+
+#python version
+.python-version
+
+#pytest_cache
+**.pytest_cache
+
+*.egg-info
+
+#celerybeat_schedule
+celerybeat-schedule
+.coverage
+
+.mypy_cache
